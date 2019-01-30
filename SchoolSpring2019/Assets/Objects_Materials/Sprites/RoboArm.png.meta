@@ -6,6 +6,10 @@ TextureImporter:
     21300002: Forearm
     21300004: Upperarm
     21300006: Grass
+    21300008: RoboArm_0
+    21300010: ForeArm
+    21300012: UpperArm
+    21300014: RoboArm_1
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -161,6 +165,86 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 26bfd9ad5a431344e89d170d814bf383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboArm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 306
+        height: 323
+      alignment: 9
+      pivot: {x: 0.6775023, y: 0.1807397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772f145b43294054b830cc8233c839cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForeArm
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 20
+        width: 121
+        height: 493
+      alignment: 9
+      pivot: {x: 0.48698843, y: 0.086449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9756b03770978644ba38404dd634c205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperArm
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 20
+        width: 112
+        height: 435
+      alignment: 9
+      pivot: {x: 0.35240284, y: 0.024070442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdc69879aa433941a3bcf99d1825280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboArm_1
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 298
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6f96186b9a91549be417dc4d418fd0
       vertices: []
       indices: 
       edges: []
