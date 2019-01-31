@@ -6,22 +6,10 @@ using UnityEngine.Events;
 public class RoboArmEvent : MonoBehaviour
 {
 
-	public Rigidbody2D RoboArm;
 	public UnityEvent Event;
-	
-	// Use this for initialization
-	void Start ()
-	{
-		RoboArm = GetComponent<Rigidbody2D>();
-	}
 
-	void OncollisionEnter2D()
+	void OnCollisionEnter2D()
 	{
 		Event.Invoke();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
