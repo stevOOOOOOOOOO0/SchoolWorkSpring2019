@@ -6,6 +6,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Animal" t="Include">
+            <e p="Yamma.cs" t="Include" />
+          </e>
           <e p="RoboArm" t="Include">
             <e p="RoboArmEvent.cs" t="Include" />
           </e>

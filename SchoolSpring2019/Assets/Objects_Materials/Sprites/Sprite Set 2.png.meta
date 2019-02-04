@@ -5,6 +5,8 @@ TextureImporter:
     21300000: Arm_Pot
     21300002: Button
     21300004: Platform
+    21300006: Wurm
+    21300008: yama
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -113,7 +115,7 @@ TextureImporter:
         width: 227
         height: 477
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,13 +135,53 @@ TextureImporter:
         width: 1937
         height: 335
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 8aecafb1a90e61344a1b7ee960f9d25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yama
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 332
+        width: 682
+        height: 985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08432b9342f068e4785ad7edea66ec2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wurm
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 931
+        width: 296
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bbbbb0fa89a104d8c06eeba9d0eade
       vertices: []
       indices: 
       edges: []

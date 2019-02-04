@@ -15,7 +15,7 @@ public class RoboArmEvent : MonoBehaviour
 		RoboArm = GetComponent<Rigidbody2D>();
 	}
 
-	void OncollisionEnter2D()
+	void OnCollisionEnter2D()
 	{
 		Event.Invoke();
 	}
