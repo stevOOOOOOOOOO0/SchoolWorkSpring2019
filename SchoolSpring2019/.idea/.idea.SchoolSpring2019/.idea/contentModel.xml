@@ -7,10 +7,16 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Animal" t="Include">
+            <e p="Animal.cs" t="Include" />
             <e p="Yamma.cs" t="Include" />
+            <e p="YammaBaby.cs" t="Include" />
           </e>
           <e p="RoboArm" t="Include">
             <e p="RoboArmEvent.cs" t="Include" />
+            <e p="RoboArmMovement.cs" t="Include" />
+          </e>
+          <e p="ScriptableObj" t="Include">
+            <e p="FloatData.cs" t="Include" />
           </e>
         </e>
       </e>

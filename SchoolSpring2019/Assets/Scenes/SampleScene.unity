@@ -367,14 +367,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 368265266}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.05155162, w: 0.9986704}
   m_LocalPosition: {x: -0.01, y: -1.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 615779732}
   m_Father: {fileID: 2026776727}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.91}
 --- !u!212 &368265268
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -442,14 +442,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615779731}
-  m_LocalRotation: {x: 0, y: 0, z: 0.4399391, w: 0.89802766}
+  m_LocalRotation: {x: 0, y: 0, z: 0.67236674, w: 0.7402182}
   m_LocalPosition: {x: 0.25, y: 3.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2133392557}
   m_Father: {fileID: 368265267}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 52.2}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 84.5}
 --- !u!212 &615779733
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5649,6 +5649,7 @@ GameObject:
   - component: {fileID: 1648484923}
   - component: {fileID: 1648484922}
   - component: {fileID: 1648484924}
+  - component: {fileID: 1648484925}
   m_Layer: 0
   m_Name: RoboArm
   m_TagString: Player
@@ -5703,7 +5704,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.9105954, y: -0.27689838}
+  m_Offset: {x: 0.9105954, y: -0.1062603}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5714,7 +5715,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.22152, y: 14.564482}
+  m_Size: {x: 8.22152, y: 14.223206}
   m_EdgeRadius: 0
 --- !u!114 &1648484924
 MonoBehaviour:
@@ -5744,6 +5745,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1648484925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648484920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514ea81a7144d0468421b06ac9c9cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anims: {fileID: 2026776728}
 --- !u!1 &1862375293
 GameObject:
   m_ObjectHideFlags: 0
@@ -5856,14 +5869,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2026776726}
-  m_LocalRotation: {x: -0, y: -0, z: -0.050067782, w: 0.99874586}
+  m_LocalRotation: {x: 0, y: 0, z: -0.012740573, w: 0.9999189}
   m_LocalPosition: {x: 0.25, y: 5.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 368265267}
   m_Father: {fileID: 1132931734}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.7400002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.46}
 --- !u!95 &2026776728
 Animator:
   serializedVersion: 3
@@ -5949,13 +5962,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2133392556}
-  m_LocalRotation: {x: 0, y: -0, z: 0.017796695, w: 0.99984163}
+  m_LocalRotation: {x: 0, y: 0, z: -0.24361496, w: 0.96987206}
   m_LocalPosition: {x: -0.02, y: 3.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 615779732}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 51.09}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -28.2}
 --- !u!212 &2133392558
 SpriteRenderer:
   m_ObjectHideFlags: 0
