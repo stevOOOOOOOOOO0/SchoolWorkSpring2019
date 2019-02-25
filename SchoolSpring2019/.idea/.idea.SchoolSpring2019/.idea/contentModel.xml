@@ -11,7 +11,12 @@
             <e p="Yamma.cs" t="Include" />
             <e p="YammaBaby.cs" t="Include" />
           </e>
+          <e p="PowerUp" t="Include">
+            <e p="GoldCoin.cs" t="Include" />
+            <e p="PowerUpBase.cs" t="Include" />
+          </e>
           <e p="RoboArm" t="Include">
+            <e p="Health.cs" t="Include" />
             <e p="RoboArmEvent.cs" t="Include" />
             <e p="RoboArmMovement.cs" t="Include" />
           </e>

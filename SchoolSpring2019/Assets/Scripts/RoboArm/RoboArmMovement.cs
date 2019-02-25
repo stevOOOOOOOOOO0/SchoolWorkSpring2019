@@ -7,6 +7,7 @@ public class RoboArmMovement : MonoBehaviour
 
 	private Rigidbody2D _player;
 	public Animator Anims;
+	public float Speed = 50;
 	
 	// Use this for initialization
 	void Start ()
@@ -16,7 +17,7 @@ public class RoboArmMovement : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		_player.AddForce(_player.transform.right * Input.GetAxis("Horizontal") * 50);
+		_player.AddForce(_player.transform.right * Input.GetAxis("Horizontal") * Speed);
 		if (Input.GetAxis("Horizontal") > 0)
 			Anims.SetTrigger("MovementRight");
 		if (Input.GetAxis("Horizontal") < 0)
