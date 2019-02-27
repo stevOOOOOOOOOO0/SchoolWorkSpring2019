@@ -18,15 +18,13 @@ public class RoboArmMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 		_player.AddForce(_player.transform.right * Input.GetAxis("Horizontal") * Speed);
+		_player.AddForce(_player.transform.up * Input.GetAxis("Vertical") * Speed / 2);
+		//Animation triggers
 		if (Input.GetAxis("Horizontal") > 0)
 			Anims.SetTrigger("MovementRight");
 		if (Input.GetAxis("Horizontal") < 0)
 			Anims.SetTrigger("MovementLeft");
 		if (Input.GetAxis("Horizontal") == 0f)
-		{
 			Anims.SetTrigger("NotMoving");
-			Anims.ResetTrigger("MovementLeft");
-			Anims.ResetTrigger("MovementRight");
-		}
 	}
 }

@@ -7,8 +7,8 @@ public class PowerUpBase : MonoBehaviour
 
 	public FloatData FData;
 
-	private void Update()
+	private void OnCollisionEnter2D(Collision2D other)
 	{
-		
+		Destroy(gameObject);
 	}
 }

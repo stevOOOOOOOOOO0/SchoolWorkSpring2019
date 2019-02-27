@@ -31,6 +31,6 @@ public class Health : MonoBehaviour
 			Healths.Value = 100;
 		}
 		
-		print(Healths.Value);
+		//print(Healths.Value);
 	}
 }
