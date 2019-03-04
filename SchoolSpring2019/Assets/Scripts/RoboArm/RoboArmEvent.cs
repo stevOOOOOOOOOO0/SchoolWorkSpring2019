@@ -6,14 +6,14 @@ using UnityEngine.Events;
 public class RoboArmEvent : MonoBehaviour
 {
 
-	public Rigidbody2D RoboArm;
+	public CharacterController RoboArm;
 	public UnityEvent Event;
 	public FloatData GoldCount;
 	
 	// Use this for initialization
 	void Start ()
 	{
-		RoboArm = GetComponent<Rigidbody2D>();
+		RoboArm = GetComponent<CharacterController>();
 	}
 
 	void OnCollisionEnter2D(Collision2D other)
