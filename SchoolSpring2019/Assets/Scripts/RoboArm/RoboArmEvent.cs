@@ -16,11 +16,10 @@ public class RoboArmEvent : MonoBehaviour
 		RoboArm = GetComponent<CharacterController>();
 	}
 
-	void OnCollisionEnter2D(Collision2D other)
+	void OnCollisionEnter(Collision other)
 	{
 		Event.Invoke();
-		if (other.gameObject.tag == "Gold")
-			GoldCount.Value += 5;
+		print("in it");
 	}
 	
 	// Update is called once per frame

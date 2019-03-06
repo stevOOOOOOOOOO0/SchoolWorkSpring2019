@@ -9,19 +9,19 @@ public class GoldCoin : PowerUpBase
 	[Range(0f, 0.5f)]
 	public float Timer;
 	public bool Up;
-	public Vector3 StartingLocation;
+	private Vector3 _startingLocation;
 	
 	// Use this for initialization
 	void Start ()
 	{
 		Timer = 0;
-		StartingLocation = transform.position;
+		_startingLocation = transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		transform.position = Vector3.Lerp(StartingLocation, StartingLocation + transform.up * 2, Timer);
+		transform.position = Vector3.Lerp(_startingLocation, _startingLocation + transform.up * 2, Timer);
 		if (Up)
 			Timer += 1 * Time.deltaTime;
 		else 

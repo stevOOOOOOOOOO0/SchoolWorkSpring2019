@@ -20,6 +20,5 @@ public class GoldCount : MonoBehaviour
 	void Update ()
 	{
 		goldOutput.text = Gold.Value.ToString();
-		print(Gold.Value);
 	}
 }
