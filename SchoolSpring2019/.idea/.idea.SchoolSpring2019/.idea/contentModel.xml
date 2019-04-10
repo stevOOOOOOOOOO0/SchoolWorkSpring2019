@@ -16,20 +16,25 @@
           </e>
           <e p="HUD" t="Include">
             <e p="GoldCount.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
           </e>
           <e p="PowerUp" t="Include">
             <e p="GoldCoin.cs" t="Include" />
             <e p="PowerUpBase.cs" t="Include" />
           </e>
           <e p="RoboArm" t="Include">
+            <e p="Counter.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="MoveBase.cs" t="Include" />
             <e p="MoveSingleJump.cs" t="Include" />
             <e p="MoveWithAxis.cs" t="Include" />
             <e p="RoboArmEvent.cs" t="Include" />
             <e p="RoboArmMovement.cs" t="Include" />
+            <e p="StateMachine.cs" t="Include" />
+            <e p="Switches.cs" t="Include" />
           </e>
           <e p="ScriptableObj" t="Include">
+            <e p="Collection.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
           </e>
         </e>

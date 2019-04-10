@@ -12,25 +12,23 @@ public class Health : MonoBehaviour
 	{
 		Healths.Value = 100;
 	}
-	
-	// Update is called once per frame
-	private void OnCollisionEnter2D(Collision2D other)
+
+	private void Update()
 	{
+		Healths.UpdateValue(-1f * Time.deltaTime);
+	}
+
+	private void OnCollisionEnter(Collision other)
+	{
+		print("in it");
 		if (other.gameObject.tag == "HealthBox")
 		{
-			Healths.Value += 10;
+			Healths.UpdateValue(10f);
 		}
 
 		else
 		{
-			Healths.Value -= 10;
+			Healths.UpdateValue(-10f);
 		}
-
-		if (Healths.Value > 100)
-		{
-			Healths.Value = 100;
-		}
-		
-		//print(Healths.Value);
 	}
 }

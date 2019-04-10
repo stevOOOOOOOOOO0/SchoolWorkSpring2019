@@ -12,6 +12,18 @@ public class RoboArmMovement : MonoBehaviour
 	public float JumpSpeed = 5;
 	public float Gravity = -3f;
 	private Vector3 position;
+
+	private Vector3 Movement()
+	{
+		position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
+
+		if (_player.isGrounded && Input.GetButton("Jump"))
+		{
+			position.y = JumpSpeed;
+		}
+		position.y += Gravity * Time.deltaTime;
+		return position;
+	}
 	
 	// Use this for initialization
 	void Start ()
@@ -21,18 +33,8 @@ public class RoboArmMovement : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-
-		position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
-
-		if (_player.isGrounded && Input.GetButton("Jump"))
-		{
-			position.y = JumpSpeed;
-		}
-		position.y += Gravity * Time.deltaTime;
 		
-		_player.Move(position);
-		
-		
+		_player.Move(Movement());
 		
 		//Animation triggers
 		if (Input.GetAxis("Horizontal") > 0)
